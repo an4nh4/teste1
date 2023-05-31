@@ -1,0 +1,28 @@
+.header{
+    display: flex; /* Define os elementos como flexíveis (coloca os elementaos lado a lado)*/
+    justify-content: space-around; /* justifica os lementos com espaço entre eles utilizando as extremidades */
+    justify-content: space-between; /* justifica os lementos com espaço entre eles sem utilizar as extremidades (mais centralizados) */
+    padding: 1.5%; /* preenchimento entre as bordas e o conteúdo*/
+    border-bottom: 1px solid white; /* Define borda inferior para o cabeçalho */
+    align-items: center; /* alinha os elementos verticalmente */
+}
+.conteiner_header {
+    position:relative;
+    height:50px;
+    background-color: rgb(34, 45, 187);
+    display: flex;
+    justify-content: center;
+}
+.conteiner_header ul {
+    width: 40%;
+    text-align: center;
+}
+.conteiner_header table tr td a {
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.conteiner_header table tr td a:hover{
+    color: rgb(173, 70, 173);
+}
